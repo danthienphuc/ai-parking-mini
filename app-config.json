@@ -1,22 +1,15 @@
 {
   "app": {
-    "title": "AI Parking",
-    "textColor": "black",
-    "leftButton": "none",
-    "statusBar": "transparent",
-    "selfControlLoading": false,
+    "title": "ai-parking-mini",
+    "headerColor": "#1843EF",
+    "textColor": "white",
+    "leftButton": "back",
+    "statusBar": "normal",
+    "actionBarHidden": false,
     "hideAndroidBottomNavigationBar": false,
-    "hideIOSSafeAreaBottom": false,
-    "actionBarHidden": true
+    "hideIOSSafeAreaBottom": false
   },
   "listCSS": [],
   "listSyncJS": [],
-  "listAsyncJS": [],
-  "template": {
-    "name": "ai-parking-mini",
-    "primaryColor": "#006af5",
-    "prefixCurrencySymbol": false,
-    "currencySymbol": "đ",
-    "headerLogo": ""
-  }
+  "listAsyncJS": []
 }

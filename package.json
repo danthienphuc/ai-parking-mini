@@ -1,8 +1,8 @@
 {
   "name": "ai-parking-mini",
   "private": true,
-  "version": "1.1.0",
-  "description": "AI Parking",
+  "version": "1.0.0",
+  "description": "zmp-blank-templates",
   "repository": "",
   "license": "UNLICENSED",
   "browserslist": [
@@ -15,37 +15,28 @@
     "Samsung >= 5"
   ],
   "scripts": {
+    "login": "zmp login",
     "start": "zmp start",
-    "deploy": "zmp deploy",
-    "build:css": "postcss src/css/tailwind.css -o src/css/styles.css"
+    "deploy": "zmp deploy"
   },
   "dependencies": {
-    "@react-spring/web": "^9.6.1",
-    "@types/lodash": "^4.14.191",
     "@vitejs/plugin-react": "^1.3.2",
-    "lodash": "^4.17.21",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
     "recoil": "^0.7.7",
-    "swiper": "^9.1.0",
-    "zmp-sdk": "^2.39.9",
-    "zmp-ui": "^1.11.5"
+    "zmp-sdk": "latest",
+    "zmp-ui": "latest"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@types/react-router-dom": "^5.3.3",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.19",
     "cross-env": "^7.0.3",
-    "postcss": "^8.4.21",
-    "postcss-aspect-ratio-polyfill": "^2.0.0",
+    "postcss": "^8.4.38",
     "postcss-cli": "^8.3.1",
     "postcss-preset-env": "^6.7.0",
-    "sass": "^1.58.3",
-    "tailwindcss": "^3.4.10",
-    "vite": "^2.9.18",
-    "vite-tsconfig-paths": "^4.0.5"
+    "sass": "^1.76.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^2.6.14"
   }
 }
